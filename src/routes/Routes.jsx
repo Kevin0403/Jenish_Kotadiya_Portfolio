@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import { Home, About, Blog, Work, ProjectPage, Contact, BlogPage } from "../pages";
+import { Home, About, Work, ProjectPage, Contact } from "../pages";
 
 import App from "../App";
 
@@ -26,10 +26,10 @@ const routes = createBrowserRouter([
       //   path: "/blog",
       //   element: <Blog />,
       // },
-      {
-        path: "/blog/:id",
-        element: <BlogPage />,
-      },
+      // {
+      //   path: "/blog/:id",
+      //   element: <BlogPage />,
+      // },
       {
         path: "/work",
         element: <Work />,
