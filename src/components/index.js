@@ -12,10 +12,8 @@ import WorkLayout from "./work/Layout";
 import ProjectDetails from "./work/detail/ProjectDetails";
 import ContactLayout from "./contact/Contact";
 import BlogLayout from "./blog/Layout";
-import BlogDetails from "./blog/detail/BlogDetails";
 
 export { 
-    BlogDetails,
     BlogLayout,
     ContactLayout,
     ProjectDetails,
