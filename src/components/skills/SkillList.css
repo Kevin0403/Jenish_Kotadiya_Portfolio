@@ -1,0 +1,21 @@
+.skills-root > ul{
+    /* display: flex; */
+    /* flex-wrap: wrap;
+    align-items: center; */
+    padding: 0%;
+    margin: 0%;
+    width: auto;
+}
+
+.skills-root > ul > li{
+    display: inline-block;
+    list-style: none;
+    /* margin: 0.5rem; */
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}  
+
+.skills-root{
+    width: auto;
+}
+ 

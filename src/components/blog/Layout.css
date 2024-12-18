@@ -1,0 +1,53 @@
+
+
+/* search */
+.blog-container .search{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    margin: 0 auto;
+}
+
+
+/* projects */
+
+.blog-container .blogs ol{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+    gap: 2rem;
+    row-gap: 5rem;
+
+}
+
+.blog-container .blogs ol>  li{
+    width: 45%;
+}
+
+@media screen and (max-width: 1000px){
+    .blog-container .blogs ol > li{
+        width: 45%;
+    }
+    
+}
+
+@media screen and (max-width: 890px){
+    .blog-container .blogs ol > li{
+        width: 90%;
+    }
+    
+    .blog-container .search{
+        width: 50%;
+    }
+
+    
+}
+
+@media screen and (max-width: 651px){
+    .blog-container .search{
+        width: 70%;
+    }
+    
+}

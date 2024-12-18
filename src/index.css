@@ -1,0 +1,143 @@
+
+:root {
+  font-family: "Work Sans","GT Walsheim Trial", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --background-color: #F7F1F3;
+  --text-color: #000000;
+  --nav-background-color: #ECE8EB;
+  --nav-selected-color: #ffffff;
+  --home-container-background-color: #FFFFFF;
+  --title-font: "Crimson Text",  "DM Serif Display", Georgia, serif;
+  --highlight-color : #003892;
+  --error-color: #ff0033;
+  --link-color: #0077cc;
+  --footer-background-color: #ECE8EB;
+  --home-font-size : 1rem;
+  --heading-font-size: 2.3rem;
+  --common-font-size: large;
+  --github-bg-color: #FFFFFF;
+  --twitter-bg-color: #000000;
+  --linkedin-bg-color: #0077cc;
+}
+
+html{
+  scroll-behavior: smooth
+}
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+[data-theme="dark"] {
+  --footer-background-color:  #121212;
+  --background-color: #161B22;
+  --text-color: #F0F6FC;
+  --nav-background-color: #23262E;
+  --nav-selected-color: #121212;
+  --home-container-background-color: #121212;
+}
+
+*{
+  transition: background-color 0.3s;
+}
+
+:root {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  color-scheme: light dark;
+  scroll-behavior: smooth;
+}
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+#root {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+div{
+  width: 100%;
+}
+
+ul{
+  list-style: none;
+}
+ol{
+  list-style: none;
+}
+
+li{
+  width: auto;
+}
+
+/* Scrollbar */
+/* Global styles for all elements */
+* {
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #888 #f1f1f1; /* For Firefox */
+}
+
+/* Webkit-based browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px; /* Make the track rounded */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px; /* Make the thumb rounded */
+  border: 3px solid #f1f1f1; /* Optional: Add a border to create some space around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #646cff;
+}
+
+::-webkit-scrollbar-button {
+  display: none; /* Hide the default scrollbar arrows */
+}
+
+/* Customizing the scrollbar for Firefox */
+*::-moz-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px; /* Make the thumb rounded */
+  border: 3px solid #f1f1f1; /* Optional: Add a border to create some space around the thumb */
+}
+
+*::-moz-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 850px) {
+  :root{
+    --common-font-size: medium;
+  }
+}

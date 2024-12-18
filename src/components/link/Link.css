@@ -1,0 +1,21 @@
+.underline-link .link{
+    color: var(--link-color);
+    background-image: linear-gradient(currentColor, currentColor);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 0 1.7px;
+    transition: background-size .25s ease;
+    width: max-content;
+    /* font-size: 0.9rem; */
+    font-stretch: expanded;
+}
+
+.underline-link .link:hover{
+    background-size: 100% 1.7px;
+}
+
+.underline-link{
+    display: inline-block;
+    width: max-content !important;
+    cursor: pointer;
+}

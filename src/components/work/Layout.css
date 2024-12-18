@@ -1,0 +1,53 @@
+
+
+/* search */
+.work-container .search{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    margin: 0 auto;
+}
+
+
+/* projects */
+
+.work-container .projects ol{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+    gap: 2rem;
+    row-gap: 5rem;
+
+}
+
+.work-container .projects ol>  li{
+    width: 40%;
+}
+
+@media screen and (max-width: 1000px){
+    .work-container .projects ol > li{
+        width: 45%;
+    }
+    
+}
+
+@media screen and (max-width: 890px){
+    .work-container .projects ol > li{
+        width: 90%;
+    }
+    
+    .work-container .search{
+        width: 50%;
+    }
+
+    
+}
+
+@media screen and (max-width: 651px){
+    .work-container .search{
+        width: 70%;
+    }
+    
+}

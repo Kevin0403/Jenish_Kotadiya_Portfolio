@@ -1,0 +1,52 @@
+.project1-root{
+    height: 100%;
+}
+
+.project1-root .title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 1rem;
+    font-family: var(--title-font);
+}
+
+.project1-root .description{
+    font-size: var(--home-font-size);
+    margin: 1.2rem;
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Number of lines to show */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.project1-root .skills{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+.image-container img{ 
+    width: 90%;
+    border-radius: 1rem;
+    padding-bottom: 0.5rem;
+    transition: transform 0.2s;
+
+}
+
+.image-container img:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+
+.project1-root:hover .title{
+    color: var(--highlight-color);
+}
+
+@media screen and (max-width: 850px){
+    .project1-root .description{
+        -webkit-line-clamp: 5; /* Number of lines to show */
+    }
+}

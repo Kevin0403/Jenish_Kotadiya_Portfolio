@@ -1,0 +1,57 @@
+.about-me-root{
+    padding: 0.5rem;
+    width: auto;
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+    --hover-color: #003892;
+}
+
+.about-me-root > div{
+    margin: 0px;
+    width: auto;
+}
+
+.icon-container{
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    padding-left: 1.5rem;
+}
+
+.text-container{
+    font-size: var(--home-font-size);
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    padding-left: 1.5rem;
+    width: auto;
+}
+
+.about-me-root:hover .text-container span{
+    color: var(--hover-color);
+}
+
+.text-container span{
+    font-family: var(--title-font);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+
+.load-more-container{
+    position: absolute;
+    width: max-content;
+    right: 2rem;
+    top: 1rem;
+}
+
+.load-more-container > button{
+    background: none;
+    border: 1px  var(--text-color);
+    color: var(--text-color);
+    font-size: small;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 2px 4px darkslategray;
+}

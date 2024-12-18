@@ -1,0 +1,130 @@
+.container{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.9rem;
+    padding: 0px;
+    margin: 0px;
+    
+    width: 100%;
+    align-items: center;
+    display: grid;
+    grid-template-columns : 1fr auto 1fr;
+}
+
+/* nav container */
+
+.nav-container{
+    position: relative;
+    display: flex;
+    padding: 0px 0.7rem;
+    margin: 0px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    background-color: var(--nav-background-color);
+    border-radius: 1.5rem;
+    filter: drop-shadow(0px 0px 50px var(--text-color));
+}
+
+.nav-container > li {
+    position: relative;
+    padding: 0.7rem 0rem;
+    margin: 0.2rem 0.01rem;
+    border-radius: 1.5rem;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.nav-container > li > a {
+    padding: 0.7rem 1rem;
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 550;
+}
+
+/* .nav-container  li:hover {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    cursor: pointer;
+} */
+
+.nav-container .selected{
+    background-color: var(--nav-selected-color);
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    border-radius: 1.2rem;
+    padding: 0.7rem 0rem;
+    text-decoration: none;
+    color: var(--nav-selected-color);
+}
+
+
+/* extrea container */
+.extra-container{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.switch{
+    width: fit-content;
+    filter: drop-shadow(0px 0px 20px var(--text-color));
+}
+
+.container .contact{
+    width: fit-content;
+}
+
+.container .contact > a{
+    color: var(--text-color);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.container .contact > a :hover{
+    color: var(--text-color);
+}
+
+.container .contact .icon {
+    transition: transform .2s ease-out;
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.container .contact .icon:hover {
+    transform: translate(5px, -15%) rotate(0.1turn);
+    /* transform: rotate(0.2turn); */
+}
+
+.container .contact :hover .icon{
+    transform: translate(5px, -18%) rotate(0.05turn);
+
+}
+
+
+@media screen and (max-width: 768px){
+    .container .contact{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 570px) {
+    .extra-container{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .container .logo{
+        display: none;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0rem;
+    }
+
+}

@@ -1,0 +1,29 @@
+.subscribe-root > p {
+    width: 60%;
+    text-align: left;
+    margin-bottom: auto;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.subscribe-root{
+    width: auto;
+    padding: 1rem;
+}
+
+.subscribe-root > .input-root{
+    text-align: left;
+}
+
+
+
+.subscribe-root{
+    position: relative;
+}
+
+.subscribe-root > .subscribe-img{
+    width: auto; 
+    position: absolute;
+    right: 2rem;
+    top: -1rem;
+}

@@ -1,0 +1,10 @@
+.github-root:hover {
+    transform: scale(1.1);
+}
+
+.github-root{
+    height: 100%;
+    place-content: center;
+    transition: transform 0.2s;
+}
+

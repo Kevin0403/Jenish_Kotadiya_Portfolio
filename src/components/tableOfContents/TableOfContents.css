@@ -1,0 +1,30 @@
+.table-of-contents {
+    line-height: 2rem;
+  }
+  
+  .table-of-contents ul {
+    opacity: 0.6;
+  }
+  
+  .table-of-contents ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+  }
+  
+  .table-of-contents ul li a:hover {
+    color: var(--highlight-color);
+  }
+  
+  .table-of-contents ul li a.active {
+    color: var(--highlight-color);
+    font-weight: bold;
+  }
+  
+  .table-of-contents h4 {
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+    font-weight: 700;
+    width: max-content;
+    margin: 1rem 0rem;
+  }
+  

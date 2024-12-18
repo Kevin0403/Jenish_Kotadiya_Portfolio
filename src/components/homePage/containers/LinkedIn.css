@@ -1,0 +1,9 @@
+.linkedin-root:hover {
+    transform: scale(1.1);
+}
+
+.linkedin-root{
+    height: 100%;
+    place-content: center;
+    transition: transform 0.2s;
+}

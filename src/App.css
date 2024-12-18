@@ -1,0 +1,13 @@
+.root-container{
+    padding: 0rem 0;
+    margin: 0 auto;
+    padding: 1rem;
+    width: auto;
+    max-width: 65rem;
+    min-height: 50vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column wrap;
+    gap: 2rem;
+}
