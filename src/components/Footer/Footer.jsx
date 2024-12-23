@@ -25,7 +25,7 @@ function Footer() {
                 <a className="link" href="https://github.com/Kevin0403">X(twitter)<HiArrowUpRight /></a> */}
             </div>
         </div>
-        <p className="copywrite">© 2024 Kevin Sangani. All rights reserved.</p>
+        <p className="copywrite">© 2024 Jenish Kotadiya. All rights reserved.</p>
       </div>
     </footer>
   );
