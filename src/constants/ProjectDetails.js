@@ -5,59 +5,31 @@ const projects = [
         id : 'evpark',
         title: 'EV Park N Charge',
         'subTitle': 'Android application for charging management',
-        'description': 'The purpose of the EV charging online slot booking application is to provide a convenient and ecient way for EV drivers to book charging slots at public charging stations.The application should allow users to search for charging stations by location, type of charger, and availability. Users should also be able to book slots in advance and receive notications when their slot is ready.',
+        'description': 'This EV charging slot booking application aims to simplify the charging experience for electric vehicle drivers. It empowers users to easily find available charging stations, book slots in advance, and receive timely notifications. By effectively managing charging station resources, the application contributes to a smoother and more efficient EV charging ecosystem.',
         'image': evpark,
         'tech': [
             {
-                name: 'React',
-                description: 'Employing React.js for frontend development to create a responsive and interactive user interface for users to create and manage sports tournaments.'
+                name: 'Java',
+                description: 'Leveraging Java for Android development to build a user-friendly and robust mobile application for EV drivers.'
             },
             {
-                name: 'SpringBoot',
-                description: 'Spring Boot for backend development to create RESTful APIs for handling user authentication, tournament creation, and match scheduling.'
+                name: 'Spring Boot',
+                description: 'Utilizing Spring Boot as the backend framework to create RESTful APIs for managing user accounts, booking slots, and handling charging station data.' 
             },
             {
-                name: 'Mysql',
-                description: 'Utilizing MySQL as the database management system for storing match, tournament, player, and team data to ensure data integrity and consistency.'
+                name: 'MySQL',
+                description: 'Employing MySQL as the database to efficiently store and manage user data, charging station information, and booking records.'
+            },
+            {
+                name: 'Google Maps API',
+                description: 'Integrating Google Maps API to provide accurate location-based services, enabling users to easily find charging stations nearby and plan their routes.'
             }
         ],
-        'design' : 'SportSplash is designed to be a dynamic, user-friendly platform that caters to sports enthusiasts, allowing them to create and participate in various sports tournaments. The application follows a modular design with clear separation of concerns, ensuring maintainability and scalability. The design leverages modern web development technologies, ensuring a seamless and interactive user experience.',
-        'lesson learned' : 'Developing the SportSplash application as part of our college semester project taught us many valuable lessons 📚. We learned the importance of good communication and teamwork, which were crucial for our success 🤝. This project helped us understand full-stack development better. We created user-friendly interfaces using React and Tailwind CSS, built strong backend services with Spring Boot, and managed our database with MySQL 💻. This experience also highlighted the importance of thorough testing and using user feedback to enhance our features 🛠️. Overall, working on SportSplash improved our technical skills and prepared us for future collaborative projects 🚀',
-
-        'link': 'https://github.com/Kevin0403/SportSplash',
+        'design' : 'The application emphasizes a clean and intuitive user interface, prioritizing ease of navigation and a seamless user experience. The design incorporates material design principles for a visually appealing and consistent look and feel across different Android devices.',
+        'lesson learned' : 'This project provided valuable insights into the challenges and rewards of developing a mobile application for a specific domain. We learned the importance of understanding user needs, designing a user-friendly interface, and building a robust backend infrastructure. The project also highlighted the significance of effective project management and collaboration within a team.',
+        'link': 'https://github.com/jenish0612', 
     },
-    // {
-    //     title: 'FarMart',
-    //     'subTitle': '',
-    //     'description': 'Project 2 Description',
-    //     'image': sportSplash,
-    //     'tech': [
-    //         {
-    //             name: 'React',
-    //             description: 'React Description'
-    //         },
-    //         {
-    //             name: 'NodeJS',
-    //             description: 'NodeJS Description'
-    //         }
-    //     ]
-    // },
-    // {
-    //     title: 'Project 3',
-    //     'subTitle': 'Project 3 Subtitle',
-    //     'description': 'Project 3 Description',
-    //     'image': sportSplash,
-    //     'tech': [
-    //         {
-    //             name: 'React',
-    //             description: 'React Description'
-    //         },
-    //         {
-    //             name: 'NodeJS',
-    //             description: 'NodeJS Description'
-    //         }
-    //     ]
-    // }
-]
+    // ... other projects
+];
 
 export default projects;
